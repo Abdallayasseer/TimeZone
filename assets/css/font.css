@@ -1,0 +1,21 @@
+@font-face {
+    font-family:JosefinSans-Bold ;
+    src: url('../Fonts/static/JosefinSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: JosefinSans-Regular ;
+    src: url('../Fonts/static/JosefinSans-Regular.ttf');
+}
+@font-face {
+    font-family:JosefinSans-Medium ;
+    src: url('../Fonts/static/JosefinSans-Medium.ttf');
+}
+@font-face {
+    font-family:JosefinSans-SemiBold ;
+    src: url('../Fonts/static/JosefinSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: JosefinSans-MediumItalic;
+    src: url('../Fonts/static/JosefinSans-MediumItalic.ttf');
+}
