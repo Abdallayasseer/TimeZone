@@ -536,9 +536,9 @@ body {
   transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
 
-:is(.btn-img-cap):is(:hover, :focus-visible, :focus) {
-  background-color: var(--primary-50);
-  color: var(--white);
+:is(.btn-img-cap):is(:hover, :focus-visible, :focus, :active) {
+  background-color: var(--primary-50) !important;
+  color: var(--white) !important;
 }
 .popular-imgs:where(:hover) .imgCap {
   bottom: 0px;
