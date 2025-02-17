@@ -466,9 +466,6 @@ body {
   height: 50vh;
   background-repeat: no-repeat;
 }
-.gallery-area .col-12 {
-  padding-left: unset;
-}
 .galleryImg {
   position: relative;
   overflow: hidden;
@@ -692,7 +689,6 @@ body {
   color: var(--primary-100);
   display: inline-block;
 }
-
 @media only screen and (max-width: 992px) {
   /* For screens smaller than 992px */
   .navbar-collapse {
@@ -766,6 +762,13 @@ body {
     place-items: center;
     margin-top: 20px;
   }
+  .imgCap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 115% !important;
+  }
   .watch-choice-img {
     display: grid;
     place-content: center !important;
@@ -814,6 +817,10 @@ body {
     font-size: 18px;
     left: 25px;
   }
+  .hero-section .btn {
+    display: block;
+    margin: 100px 0;
+  }
   .PopularItems-section .row {
     display: grid;
     place-content: center !important;
@@ -848,5 +855,24 @@ body {
   .footer ul li {
     list-style: none;
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #loading img {
+    position: absolute !important;
+    left: 115px !important;
+  }
+  .HOT::after {
+    content: "HOT";
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    width: 15% !important;
+    height: 50%;
+    background-color: var(--error-100);
+    opacity: 0.7;
+    z-index: 1;
+    text-align: center;
   }
 }
