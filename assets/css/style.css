@@ -170,7 +170,8 @@ body {
 }
 #loading img {
   position: relative;
-  left: -142px;
+  left: 25px;
+  top: -90px;
 }
 #scrollTop {
   position: fixed;
@@ -810,8 +811,9 @@ body {
     z-index: 9999;
   }
   #loading img {
-    position: absolute !important;
-    left: 315px !important;
+    position: relative;
+    left: 20px;
+    top: -90px;
   }
   .imgCap {
     font-size: 18px;
@@ -860,8 +862,9 @@ body {
 
 @media only screen and (max-width: 576px) {
   #loading img {
-    position: absolute !important;
-    left: 115px !important;
+    position: relative;
+    left: 25px;
+    top: -90px;
   }
   .HOT::after {
     content: "HOT";
